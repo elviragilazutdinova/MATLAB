@@ -1,0 +1,15 @@
+%% vidējas un efektīvas vērtības aprēķins
+%% vidējas vērtības aprēķins
+t = 0:0.1:6;
+N = length(t);
+%% 
+% * ar formulu 3a
+xvid3a = 1/(N-1)*sum(sig(t(1:end-1)))
+%% 
+% * ar formulu 3b
+xvid3bb= 1/(N-1)*sum(sig(t(2:end)))
+xvid3b = 1/(N-1)*sum(sig(t((1:end-1)+1)))
+%% 
+% * ar formulu 3c
+xvid3c = 1/(N-1)*sum(sig(t((1:end-1)+1)))
+
