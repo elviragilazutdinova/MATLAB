@@ -1,5 +1,5 @@
 function y = lab_3_fun(t)
-% t=0:0.01:6;
+%t=0:0.01:6;
 t_sin_f=(t>=2.5)&(t<4); t_sin = t(t_sin_f);
 t_zero_f= (t>=0)&(t<1.5); t_zero = t(t_zero_f);
 t_const_f=(t>=4)&(t<=6); t_const=t(t_const_f);

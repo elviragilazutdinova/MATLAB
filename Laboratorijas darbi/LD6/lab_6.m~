@@ -57,13 +57,5 @@ semilogx(dt,xvid3am,'-o',dt,dt*0+ista_vv)
 % <<../b.png>>
 %
 %% Piezīme
-% lai simulink palaistos vajadzētu definēt dt = 0.01 komandlogā
+% lai simulink palaistos vajadzētu definet dt = 0.01 komandlogā
 %% Secinājumi:
-
-% Mēs ar dažadam MATLAB piejam atradam patiesu vidēju un efektīvu vērtību
-% savam individuālājam signālam no 3. LD.
-% Izmantojot info par savu signalu, tiekam pie vidējas vērtības, pēc tam pie efektīvas vērtības.
-% Ar cikla palīdzību salidzinājam 3a formulu ar īsto vidējo vērtību.
-% Kā arī ar SIMULINK palīdzību atradam savam signalam patiesu vidēju un
-% efektīvu vērtību, un arī signāla grafikus.
-
